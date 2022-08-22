@@ -1,0 +1,30 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+}
+
+.deterrence-rules-wrapper {
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+    grid-template-rows: 20rem 20rem 20rem 20rem;
+    grid-template-areas: "#allUnits #allOrders #allMoves #allScoreOpers"
+                          "#allConvRules #allNucSDIRules #allScoreRules #allTreatyRules";
+    background-color: cyan;
+    grid-gap: 1rem;
+  }
+
+  .deterrence-app-btn-wrapper {
+    background-color: yellow;
+  }
+
+  .deterrence-app-btn {
+    padding: 2rem;
+    font-size: 1.5rem;
+    background-color: blue;
+    color: white;
+  }
