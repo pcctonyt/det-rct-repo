@@ -1,0 +1,71 @@
+/*------FOR THE DET CARDS SECTION----------*/
+.det-cards{
+    margin-top: .5rem;
+    background-color: rgb(44, 44, 126);
+    color: var(--primary-white);
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    clear: right;
+  }
+  
+  .bold {
+    font-weight: 800;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .lg {
+    height: 10px;
+  }
+  
+  .lg, .md {
+    background-color: black;
+    border: 0;
+  }
+  
+  .md {
+    height: 5px;
+  }
+  
+  .sm-text {
+    font-size: 0.85rem;
+  }
+  
+  .units-info h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+  }
+  
+  .units-info span {
+    font-size: 1.2em;
+    margin-top: -7px;
+  }
+  
+  .indent {
+    margin-left: 1em;
+  }
+  
+  .dbl-indent {
+    margin-left: 2em;
+  }
+  
+  .daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+  }
+  
+  .note {
+    font-size: 0.6rem;
+    text-indent: -8px;
+    padding: 0 8px;
+    margin: 5px 0;
+  }
+  
