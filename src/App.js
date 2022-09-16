@@ -33,6 +33,7 @@ function App() {
 
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allUnits" onClick={() => setAllUnitCodes(true)}>All Unit Codes</button>
+            <h2>The Unit Codes allow you to describe a Unit's Orders or Movement on your Deterrence Score Sheet.</h2>
             <Popup trigger={ allUnitCodes } setTrigger={ setAllUnitCodes }>
                   <ConvUnitCodes />
                   <NucUnitCodes />
@@ -41,42 +42,49 @@ function App() {
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allOrders" onClick={() => setAllOrderCodes(true)}>All Order Codes</button>
+            <h2>The Order Codes allow you to affect changes to the game without the movement, addition, or removal of any Unit(s) from the Game Board.</h2>
             <Popup trigger={ allOrderCodes } setTrigger={ setAllOrderCodes }>
                   <OrderCodes />
             </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allMoves" onClick={() => setAllMoveCodes(true)}>All Movement Codes</button>
+            <h2>The Movement Codes allow you to describe Unit movement on the Game Board.</h2>
             <Popup trigger={ allMoveCodes } setTrigger={ setAllMoveCodes }>
                   <MoveCodes />
             </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allScoreOpers" onClick={() => setAllScoreOpersCodes(true)}>All Score Sheet Operator Codes</button>
+            <h2>The Score Sheet Operator Codes allow you to describe what occurs between Units and their Orders and Movements</h2>
             <Popup trigger={ allScoreOpersCodes } setTrigger={ setAllScoreOpersCodes }>
                   <ScoreOperators />
                 </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allConvRules" onClick={() => setAllConventionalRules(true)}>All Conventional Unit Rules</button>
+            <h2>The Official Rules for Conventional Units describe thier placement, movement, orders, and applicable Treaty selections available.</h2>
             <Popup trigger={ allConventionalRules } setTrigger={ setAllConventionalRules }>
                   <ConvUnitRules />
                 </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allNucSDIRules" onClick={() => setAllNuclearSDIRules(true)}>All Nuclear Unit and SDI Defense Unit Rules</button>
+            <h2>The Official Rules for Nuclear/SDI Defense Units describe their placement, movement, orders, and applicable Treaty selections.</h2>
             <Popup trigger={ allNuclearSDIRules } setTrigger={ setAllNuclearSDIRules }>
                   <NucSDIRules />
                 </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allScoreRules" onClick={() => setAllScoreSheetRules(true)}>All Score Sheet Rules</button>
+            <h2>The Deterrence Official Score Sheet v5.0.1 allows players to accurately reflect game events and record their scores to determine outcome.</h2>
             <Popup trigger={ allScoreSheetRules } setTrigger={ setAllScoreSheetRules }>
                   <ScoreRules />
                 </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allTreatyRules" onClick={() => setAllTreatyChartRules(true)}>All Treaty Rules</button>
+            <h2>The Deterrence Official Treaty Negotiations Chart v5.1.1 allows players one time each per game to accurately change Variable Rules and Points Settings.</h2>
             <Popup trigger={ allTreatyChartRules } setTrigger={ setAllTreatyChartRules }>
                   <TreatyRules />
                 </Popup>

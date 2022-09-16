@@ -17,7 +17,7 @@ const NucSDIRules = () => {
       <h3>Arm a previously Activated(R)</h3>
       <h3>Fire (F) a previously Armed Nuclear Unit</h3>
       <h3>Fallout Square rules:</h3>
-      <h3></h3>
+      <h3>Fallout Squares cannot hold any Units of any type.  They are considered "out-of-bounds" and can only be "jumped over" by Airdrop Units or "flown over" by the Intermediate or Strategic Nuclear Units only during Firing Move Orders.</h3>
     </div>
   )
 }

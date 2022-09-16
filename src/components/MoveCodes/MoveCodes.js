@@ -1,19 +1,61 @@
-import React from "react";
+import React, { useState } from "react";
+import BB from "../MoveCodeCards/BB";
+import D from "../MoveCodeCards/D";
+import DO from "../MoveCodeCards/DO";
+import F from "../MoveCodeCards/F";
+import HO from "../MoveCodeCards/HO";
+import "./DetCards.css";
+import "./MoveCodes.css";
+import PU from "../MoveCodeCards/PU";
+import Popup from "../Popup/Popup.js";
 
 const MoveCodes = () => {
+  const [ breachCode, setBreachCode ] = useState(false);
+  const [ deployCode, setDeployCode ] = useState(false);
+  const [ dropoffCode, setDropoffCode ] = useState(false);
+  const [ fireCode, setFireCode ] = useState(false);
+  const [ handoffCode, setHandoffCode ] = useState(false);
+  const [ pickupCode, setPickupCode ] = useState(false);
+  
   return (
-    <div>MoveCodes
-        <h2>Movement Codes</h2>
-        <ul>
-          <li>Moving a Conventional Unit besides the Infantry Unit:  Use that Unit's Unit Code followed by the destination square's Square Code</li>
-          <li>Moving an Infantry Unit: Use the destination square's Square Code</li>
-          <li>If a Conventional Unit carries a Mobile Nuclear or Mobile SDI Defense Unit, separate their Unit Codes with a (/)</li>
-          <li>Handing Off:  Use Movement Code - HO</li>
-          <li>Picking Up:  Use Movement Code - PU</li>
-          <li>Dropping Off:  Use Movement Code - DO</li>
-          
-          <li></li>
-        </ul>
+    <div>
+        <h2> Movement Codes:  Click a button below for all of the information on that Move Element type!</h2>
+          <span>
+            <button id="BorderBreachCode" className="move-codes-btn" onClick={() => setBreachCode(true)}>Border Breach Move Element: (BB)</button>
+            <Popup trigger={ breachCode } setTrigger={ setBreachCode }>
+                <BB />
+            </Popup>
+          </span>
+          <span>
+            <button id="DeployCode" className="move-codes-btn" onClick={() => setDeployCode(true)}>Deploy Move Element: (D)</button>
+            <Popup trigger={ deployCode } setTrigger={ setDeployCode }>
+                <D />
+            </Popup>
+          </span>
+          <span>
+            <button id="DropOffCode" className="move-codes-btn" onClick={() => setDropoffCode(true)}>Drop Off Move Element: (DO)</button>
+            <Popup trigger={ dropoffCode } setTrigger={ setDropoffCode }>
+                <DO />
+            </Popup>
+          </span>
+          <span>
+            <button id="FireCode" className="move-codes-btn" onClick={() => setFireCode(true)}>Fire Move Element: (F)</button>
+            <Popup trigger={ fireCode } setTrigger={ setFireCode }>
+                <F />
+            </Popup>
+          </span>
+          <span>
+            <button id="HandOffCode" className="move-codes-btn" onClick={() => setHandoffCode(true)}>Hand Off Move Element: (HO)</button>
+            <Popup trigger={ handoffCode } setTrigger={ setHandoffCode }>
+                <HO />
+            </Popup>
+          </span>
+          <span>
+            <button id="PickUpCode" className="move-codes-btn" onClick={() => setPickupCode(true)}>Pick Up Move Element: (PU)</button>
+            <Popup trigger={ pickupCode } setTrigger={ setPickupCode }>
+                <PU />
+            </Popup>
+          </span>
     </div>
   )
 }

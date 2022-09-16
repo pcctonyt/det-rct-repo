@@ -15,19 +15,22 @@
 
   .popup-inner {
     position: relative;
-    padding: 0;
-    height: 40vh;
+    padding: 1.2rem;
+    height: 70vh;
     width: 80%;
     max-width: 40rem;
-    background-color: transparent;
+    background-color: white;
     margin-top: 16rem;
     border-radius: .625rem;
   }
 
-  .popup-inner.close-btn {
+  .btn.btn-primary {
+    background-color: cyan;
+    padding: .25rem;
     position: absolute;
     display: block;
     top: .5rem;
     right: .5rem;
     margin-top: -1rem;
+    border-radius: .625rem;
   }

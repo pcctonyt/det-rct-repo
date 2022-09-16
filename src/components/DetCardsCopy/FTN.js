@@ -1,5 +1,4 @@
 import React from "react";
-import "./DetCards.css";
 
 const FTN = () => {
   return (
@@ -41,7 +40,7 @@ const FTN = () => {
                     <p>4. The destroyed square in a Firing Move becomes a Fallout Square, off-limits to all ground-landing Units.</p>
                     <p className="no-divider"><span className="bold">General Rules for Nuclear Units</span></p>
                 <div className="divider lg"></div>
-                    <p>1. To Fire a Nuclear Unit, it must have been previously Armed.</p>
+                    <p>1. To Fire (F) a Nuclear Unit, it must have been previously Armed.</p>
                     <p>2. Armed Units can be fired unaccompanied within given ranges.</p>
                     <p>3. The Unit fired is removed from the board and the firing player loses those Cash Value Points (for Mobile Units).</p>
                     <p>4. The other player's destroyed Units are removed from the board and all the resulting Cash Value Points are lost.</p>
@@ -49,6 +48,9 @@ const FTN = () => {
                     <p>6. Nuclear Units cannot destroy any Units on squares protected by Fixed SDI Defense.</p>
                     <p>7. Nuclear Units cannot destroy a Unit paired with a Mobile SDI Defense Unit</p>
                     <p>8. Nuclear Units can destroy both friendly and opposing Units (sacrifices).</p>
+                    <p>9. Only 1 total Tactical or Intermediate Nuclear Unit of either type is allowed.  The Player Deploying (D) selects either a Mobile or Fixed type at that time, and that CANNOT BE changed later.</p>
+                    <p>10. The Tactical Nuclear Unit type Deploys (D) during Complete Turns #1-#10, inclusive.</p>
+                    <p>11. All Deployed (D) Nuclear Units have a Complete Turn wait time before being Activated (C), non-inclusive of those two Turns.  This time limit can be changed during Treaty negotiations; the <em className="bold">Default Setting</em> is: 5-Turn Wait.</p>
                 </div>
                 <div className="divider md"></div>
                     <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear/SDI Units has been turned off, all Movement Codes related to the Strategic Nuclear Unit become illegal (IMD-S).</p>

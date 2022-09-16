@@ -8,23 +8,46 @@ body {
     background-color: green;
 }
 
+.deterrence-game-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deterrence-rules-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  color: white;
+}
 .deterrence-rules-wrapper {
     display: grid;
-    grid-template-columns: 15rem 15rem 15rem 15rem;
-    grid-template-rows: 20rem 20rem 20rem 20rem;
+    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-rows: 25rem 25rem;
     grid-template-areas: "#allUnits #allOrders #allMoves #allScoreOpers"
                           "#allConvRules #allNucSDIRules #allScoreRules #allTreatyRules";
     background-color: cyan;
     grid-gap: 1rem;
+    border-radius: .625rem;
   }
 
   .deterrence-app-btn-wrapper {
+    padding: .5rem;
+    margin: .25rem;
     background-color: yellow;
+    border-radius: .625rem;
   }
 
   .deterrence-app-btn {
-    padding: 2rem;
-    font-size: 1.5rem;
+    padding: 1.5rem;
+    font-size: 1rem;
     background-color: blue;
     color: white;
+    border-radius: .625rem;
+  }
+
+  .deterrence-app-btn:hover {
+    background-color: red;
   }

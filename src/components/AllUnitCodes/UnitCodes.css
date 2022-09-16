@@ -1,0 +1,20 @@
+.conv-codes-btn {
+    background-color: green;
+    color: yellow;
+    padding: .5rem;
+    border-radius: .625rem;
+}
+
+.nuc-codes-btn {
+    background-color: red;
+    color: white;
+    padding: .25rem;
+    border-radius: .625rem;
+}
+
+.sdi-codes-btn {
+    background-color: yellow;
+    padding: .5rem;
+    color: blue;
+    border-radius: .625rem;
+}
