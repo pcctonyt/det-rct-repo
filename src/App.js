@@ -5,7 +5,7 @@ import NucUnitCodes from "./components/AllUnitCodes/NucUnitCodes";
 import SDIUnitCodes from "./components/AllUnitCodes/SDIUnitCodes";
 import OrderCodes from "./components/OrderCodes/OrderCodes";
 import MoveCodes from "./components/MoveCodes/MoveCodes";
-import ScoreOperators from "./components/ScoreOperators/ScoreOperators";
+import ScoreOperators from "./components/OperatorCodes/OperatorCodes";
 import ConvUnitRules from "./components/ConvUnitRules/ConvUnitRules";
 import NucSDIRules from "./components/NucSDIRules/NucSDIRules";
 import ScoreRules from "./components/ScoreRules/ScoreRules";
@@ -32,7 +32,7 @@ function App() {
       <div className="deterrence-rules-wrapper">
 
           <span className="deterrence-app-btn-wrapper">
-            <button className="deterrence-app-btn" id="allUnits" onClick={() => setAllUnitCodes(true)}>All Unit Codes</button>
+            <button className="deterrence-app-btn" id="allUnits" onClick={() => setAllUnitCodes(true)}>All Score Sheet Unit Codes</button>
             <h2>The Unit Codes allow you to describe a Unit's Orders or Movement on your Deterrence Score Sheet.</h2>
             <Popup trigger={ allUnitCodes } setTrigger={ setAllUnitCodes }>
                   <ConvUnitCodes />
@@ -41,15 +41,15 @@ function App() {
             </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
-            <button className="deterrence-app-btn" id="allOrders" onClick={() => setAllOrderCodes(true)}>All Order Codes</button>
+            <button className="deterrence-app-btn" id="allOrders" onClick={() => setAllOrderCodes(true)}>All Score Sheet Order Element Codes</button>
             <h2>The Order Codes allow you to affect changes to the game without the movement, addition, or removal of any Unit(s) from the Game Board.</h2>
             <Popup trigger={ allOrderCodes } setTrigger={ setAllOrderCodes }>
                   <OrderCodes />
             </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
-            <button className="deterrence-app-btn" id="allMoves" onClick={() => setAllMoveCodes(true)}>All Movement Codes</button>
-            <h2>The Movement Codes allow you to describe Unit movement on the Game Board.</h2>
+            <button className="deterrence-app-btn" id="allMoves" onClick={() => setAllMoveCodes(true)}>All Score Sheet Move Element Codes</button>
+            <h2>The Movement Codes allow you to describe Unit movement, placement of new Unit(s), or removal of Unit(s) on the Game Board.</h2>
             <Popup trigger={ allMoveCodes } setTrigger={ setAllMoveCodes }>
                   <MoveCodes />
             </Popup>
@@ -83,8 +83,8 @@ function App() {
                 </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
-            <button className="deterrence-app-btn" id="allTreatyRules" onClick={() => setAllTreatyChartRules(true)}>All Treaty Rules</button>
-            <h2>The Deterrence Official Treaty Negotiations Chart v5.1.1 allows players one time each per game to accurately change Variable Rules and Points Settings.</h2>
+            <button className="deterrence-app-btn" id="allTreatyRules" onClick={() => setAllTreatyChartRules(true)}>All Treaty Negotiations Chart Rules</button>
+            <h2>The Deterrence Official Treaty Negotiations Chart v5.1.1 allows players one time each per game to change Variable Rules and Points Settings.</h2>
             <Popup trigger={ allTreatyChartRules } setTrigger={ setAllTreatyChartRules }>
                   <TreatyRules />
                 </Popup>

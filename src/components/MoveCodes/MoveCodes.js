@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import B from "../MoveCodeCards/B";
 import BB from "../MoveCodeCards/BB";
 import D from "../MoveCodeCards/D";
 import DO from "../MoveCodeCards/DO";
@@ -11,6 +12,7 @@ import Popup from "../Popup/Popup.js";
 
 const MoveCodes = () => {
   const [ breachCode, setBreachCode ] = useState(false);
+  const [ buyCode, setBuyCode ] = useState(false);
   const [ deployCode, setDeployCode ] = useState(false);
   const [ dropoffCode, setDropoffCode ] = useState(false);
   const [ fireCode, setFireCode ] = useState(false);
@@ -24,6 +26,12 @@ const MoveCodes = () => {
             <button id="BorderBreachCode" className="move-codes-btn" onClick={() => setBreachCode(true)}>Border Breach Move Element: (BB)</button>
             <Popup trigger={ breachCode } setTrigger={ setBreachCode }>
                 <BB />
+            </Popup>
+          </span>
+          <span>
+            <button id="BuySdiCode" className="move-codes-btn" onClick={() => setBuyCode(true)}>Buy SDI Defense Unit Move Element: (B)</button>
+            <Popup trigger={ buyCode } setTrigger={ setBuyCode }>
+                <B />
             </Popup>
           </span>
           <span>

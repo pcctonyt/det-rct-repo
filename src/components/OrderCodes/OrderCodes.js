@@ -3,7 +3,12 @@ import "./DetCards.css";
 import "./OrderCodes.css";
 import BNEG from "../OrderCodeCards/BNEG";
 import C from "../OrderCodeCards/C";
+import DecE from "../OrderCodeCards/DecE";
 import ENEG_N from "../OrderCodeCards/ENEG_N";
+import ENEG_R from "../OrderCodeCards/ENEG_R";
+import ENEG_Y from "../OrderCodeCards/ENEG_Y";
+import IMD_S from "../OrderCodeCards/IMD_S";
+import IMD_U from "../OrderCodeCards/IMD_U";
 import Popup from "../Popup/Popup.js";
 import R from "../OrderCodeCards/R";
 
@@ -11,7 +16,12 @@ const OrderCodes = () => {
 const [ activateCode, setActivateCode ] = useState(false);
 const [ armCode, setArmCode ] = useState(false);
 const [ beginTreatyCode, setBeginTreatyCode ] = useState(false);
+const [ decEnvoy, setDecEnvoy ] = useState(false);
 const [ endTreatyCodeNo, setEndTreatyCodeNo ] = useState(false);
+const [ endTreatyCodeFirst, setEndTreatyCodeFirst ] = useState(false);
+const [ endTreatyCodeRev, setEndTreatyCodeRev ] = useState(false);
+const [ illegalNo, setIllegalNo ] = useState(false);
+const [ illegalYes, setIllegalYes ] = useState(false);
 
   return (
     <div>
@@ -35,25 +45,41 @@ const [ endTreatyCodeNo, setEndTreatyCodeNo ] = useState(false);
             </Popup>
           </span>
           <span>
+            <button id="DeclareEnvoyCode" className="order-codes-btn" onClick={() => setDecEnvoy(true)}>Declare Envoy Order Element: (E=)</button>
+            <Popup trigger={ decEnvoy } setTrigger={ setDecEnvoy }>
+                <DecE />
+            </Popup>
+          </span>
+          <span>
             <button id="EndTreatyCodeNo" className="order-codes-btn" onClick={() => setEndTreatyCodeNo(true)}>End Treaty Negotiations No Treaty Order Element: (ENEG-N)</button>
             <Popup trigger={ endTreatyCodeNo } setTrigger={ setEndTreatyCodeNo }>
                 <ENEG_N />
             </Popup>
           </span>
-
-        <ul>
-          <li>Beginning Treaty Negotiations:  Use Order Code - BNEG</li>
-          <li>Ending Treaty Negotiations (no agreement):  Use Order Code - ENEG-N</li>
-          <li>Ending Treaty Negotiations (valid treaty):  Use Order Code - ENEG-Y</li>
-          <li>Ending Treaty Negotiations (2nd treaty revising 1st):  Use Order Code - ENEG-R</li>
-          <li>Declaring an Envoy:  Use Order Code - E=(square code)</li>
-          <li>Illegal Move Element(s) Declared Unsuccessfully:  Use Order Code - IMD-U</li>
-          <li>Illegal Move Element(s) Declared Successfully:  Use Order Code - IMD-S</li>
-          <li>Deploy a Nuclear Unit to the Game Board:  Use Order Code - D-(Unit Code)(square code)</li>
-          <li>Fire a previously Armed Nuclear Unit:  Use Order Code - F-(Unit Code)z(square codes to be destroyed)</li>
-          <li>Purchase an SDI Defense Unit: Use Order Code - B-(Unit Code)(square code)</li>
-          <li>Cross a border (Border Breach) into the opponent's territory: After the rest of the Move Element, Use Order Code - -BB</li>
-        </ul>
+          <span>
+            <button id="EndTreatyCodeRev" className="order-codes-btn" onClick={() => setEndTreatyCodeRev(true)}>End Treaty Negotiations Revised Treaty Order Element: (ENEG-R)</button>
+            <Popup trigger={ endTreatyCodeRev } setTrigger={ setEndTreatyCodeRev }>
+                <ENEG_R />
+            </Popup>
+          </span>
+          <span>
+            <button id="EndTreatyCodeFirst" className="order-codes-btn" onClick={() => setEndTreatyCodeFirst(true)}>End Treaty Negotiations 1st Treaty Order Element: (ENEG-Y)</button>
+            <Popup trigger={ endTreatyCodeFirst } setTrigger={ setEndTreatyCodeFirst }>
+                <ENEG_Y />
+            </Popup>
+          </span>
+          <span>
+            <button id="YesIllegalMove" className="order-codes-btn" onClick={() => setIllegalYes(true)}>Illegal Move Declared - Successfully Order Element: (IMD-S)</button>
+            <Popup trigger={ illegalYes } setTrigger={ setIllegalYes }>
+                <IMD_S />
+            </Popup>
+          </span>
+          <span>
+            <button id="NoIllegalMove" className="order-codes-btn" onClick={() => setIllegalNo(true)}>Illegal Move Declared - Unuccessfully Order Element: (IMD-U)</button>
+            <Popup trigger={ illegalNo } setTrigger={ setIllegalNo }>
+                <IMD_U />
+            </Popup>
+          </span>
     </div>
   )
 }
