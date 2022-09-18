@@ -14,7 +14,7 @@ const FTN = () => {
                 <div className="divider lg"></div>
                 <div className="units-info">
                     <p className="bold">Use Scoring Code:<span className="right">Cash Value</span></p>
-                    <h1>(FTN)</h1> <span className="bold right lg-text">0.0</span>
+                    <h1>(FTN)</h1> <span className=" right lg-text">0.0</span>
                 </div>
                 <div className="divider md"></div>
                 <div className="daily-value sm-text">
@@ -31,7 +31,6 @@ const FTN = () => {
                     <p className="indent no-divider"><i>Promotion</i> moves:<span className="bold right">(Not Applicable)</span></p>
                 <div className="divider"></div>
                     <p className="indent">Blocks ground-level attacks: <span className="bold right">Yes</span> </p>
-                <div className="divider"></div>
                     <p className="no-divider"><span className="bold">Rules for all Fixed Nuclear Units</span></p>
                 <div className="divider lg"></div>
                     <p>1. Fixed Nuclear Units are only destroyed by opposing Units, they cannot be captured.</p>

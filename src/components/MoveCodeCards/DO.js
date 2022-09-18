@@ -3,14 +3,14 @@ import React from "react";
 const DO = () => {
   return (
     <div className="det-cards" id="cards">
-        <h1 className="text-center">Deterrence Movement Codes</h1>
+        <h1 className="text-center">Deterrence Move Element Codes</h1>
         <div className="label">
             <header>
-                <h1 className="text-center bold">Drop Off Movement Code</h1>
+                <h1 className="text-center bold">Drop Off Move Element Code</h1>
                 <div className="divider"></div>
                 <p>This Code allows for a Conventional Unit to drop off either type of friendly Mobile Nuclear and also Mobile SDI Defense Units from its(their) current resting square to a square before the Conventional Unit's destination square.</p>
                 <div className="divider"></div>
-                <p className="bold">Code Type: <span className="right">Movement Code</span></p>
+                <p className="bold">Code Type: <span className="right">Move Element Code</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">
@@ -21,9 +21,9 @@ const DO = () => {
                 <div className="daily-value sm-text">
                     <p className="bold no-divider">Fixed Rules (cannot change):</p>
                     <div className="divider"></div>
-                        <p><span className="bold">When to use:</span><span className="right">All Conventional Units can Drop Off Mobile SDI Defense Units and then move that Conventional Unit to its final destination square.  The Unit(s) being dropped off can then be later picked up (PU) by another friendly Conventional Unit (for Nuclear Units, a compatible Conventional Unit).  It is legal for Mobile Units of all types to remain unaccompanied.  However, a new accompanying Conventional Unit changes the Movement Range of the Mobile Unit(s) being picked up.</span></p>
+                        <p><span className="bold">When to use:</span><span className="right">All Conventional Units can Drop Off Mobile SDI Defense Units and then move on to their final destination squares.  The Unit(s) being dropped off can then be later picked up (PU) by another friendly Conventional Unit (for Nuclear Units, a compatible Conventional Unit).  It is legal for Mobile Units of all types to remain unaccompanied.  However, a new accompanying Conventional Unit changes the Movement RANGE (and also the Firing RANGE of Nuclear Units) of the Mobile Unit(s) being picked up.</span></p>
                     <div className="divider"></div>
-                        <p><span className="bold">When to use:</span><span className="right">Only Units other than Infantry or the President Unit can Drop Off Mobile Intermediate Nuclear Units for possible later Pick Up or accompanyment by like Units.</span></p>
+                        <p><span className="bold">When to use:</span><span className="right">Only Units other than Infantry or the President Unit can Drop Off either Mobile Intermediate Nuclear Units or Mobile SDI Defense Units for possible later Pick Up or accompanyment by like Units.</span></p>
                         <div className="divider"></div>
                         <p className="no-divider"><span className="bold">The Drop Off Move Element requires only the one Conventional Unit completing an otherwise legal Move Element and that Mobile Unit being dropped off at a square along the path of the Conventional Unit's move.</span></p>
                     <div className="divider lg"></div>

@@ -30,7 +30,7 @@ const Infantry = () => {
                     <div className="divider md"></div>
                         <p className="no-divider">Selection 1.  No Promotion (2.0 Score Sheet Game Points added, removed from board)</p>
                         <div className="divider"></div>
-                        <p className="no-divider">Selection 2.  Promotion Only to Captured Units (does not include destroyed (z) Units</p>
+                        <p className="no-divider">Selection 2.  Promotion Only to Captured Units (does not include destroyed (z) Units)</p>
                         <div className="divider"></div>
                         <p className="no-divider">Selection 3.  Promotion to Any Unit Besides the President</p>
                     <div className="divider lg"></div>

@@ -14,7 +14,7 @@ const MSDI = () => {
                 <div className="divider lg"></div>
                 <div className="units-info">
                     <p className="bold">Use Scoring Code:<span className="right">Cash Value</span></p>
-                    <h1>(MSDI)</h1> <span className="bold right lg-text">2.0</span>
+                    <h1>(MSDI)</h1> <span className="right lg-text">2.0</span>
                 </div>
                 <div className="divider md"></div>
                 <div className="daily-value sm-text">
@@ -31,7 +31,6 @@ const MSDI = () => {
                     <p className="indent no-divider"><i>Promotion</i> moves:<span className="bold right">(Not Applicable)</span></p>
                 <div className="divider"></div>
                     <p className="indent">Blocks ground-level attacks: <span className="bold right">No</span> </p>
-                <div className="divider"></div>
                     <p className="no-divider"><span className="bold">Rules for all Mobile SDI Defense Units:</span></p>
                 <div className="divider lg"></div>
                     <p>1. Mobile SDI Defense Units are only captured by opposing Conventional Units, they cannot be destroyed by them.</p>
@@ -45,8 +44,8 @@ const MSDI = () => {
                     <p>3. A Mobile SDI Defense Unit can only be bought when at least ONE opposing Nuclear Unit is on the Game Board and has been previously Activated.</p>
                     <p>4. A total of SIX (6) SDI Defense buys can be made throughout the game, but they do not have to be made.</p>
                     <p>5. The Buy Rate Points Setting can be changed during Treaty Negotiations, as all other Points Settings can be.</p>
-                    <p>A Mobile SDI Defense Unit can protect only ONE declared paired Unit throughout the game, and that protected Unit cannot be changed.</p>
-                    <p>Mobile SDI Defense Units can be captured by opposing Conventional Units in the same manner as Mobile Nuclear Units.</p>
+                    <p>6. A Mobile SDI Defense Unit can protect only ONE declared paired Unit throughout the game, and that protected Unit cannot be changed.</p>
+                    <p>7. Mobile SDI Defense Units can be captured by opposing Conventional Units in the same manner as Mobile Nuclear Units.</p>
                 </div>
                 <div className="divider md"></div>
                     <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear/SDI Units has been turned off, all Movement and Order Codes related to the Mobile SDI Defense Unit become illegal (IMD-S).</p>

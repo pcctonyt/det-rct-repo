@@ -11,6 +11,7 @@ import IMD_S from "../OrderCodeCards/IMD_S";
 import IMD_U from "../OrderCodeCards/IMD_U";
 import Popup from "../Popup/Popup.js";
 import R from "../OrderCodeCards/R";
+import Resigns from "../OrderCodeCards/Resigns";
 
 const OrderCodes = () => {
 const [ activateCode, setActivateCode ] = useState(false);
@@ -22,6 +23,7 @@ const [ endTreatyCodeFirst, setEndTreatyCodeFirst ] = useState(false);
 const [ endTreatyCodeRev, setEndTreatyCodeRev ] = useState(false);
 const [ illegalNo, setIllegalNo ] = useState(false);
 const [ illegalYes, setIllegalYes ] = useState(false);
+const [ resignsCode, setResignsCode ] = useState(false);
 
   return (
     <div>
@@ -78,6 +80,12 @@ const [ illegalYes, setIllegalYes ] = useState(false);
             <button id="NoIllegalMove" className="order-codes-btn" onClick={() => setIllegalNo(true)}>Illegal Move Declared - Unuccessfully Order Element: (IMD-U)</button>
             <Popup trigger={ illegalNo } setTrigger={ setIllegalNo }>
                 <IMD_U />
+            </Popup>
+          </span>
+          <span>
+            <button id="ResignsCode" className="order-codes-btn" onClick={() => setResignsCode(true)}><em>Resigns</em> Order Element: (<em>Resigns</em>)</button>
+            <Popup trigger={ resignsCode } setTrigger={ setResignsCode }>
+                <Resigns />
             </Popup>
           </span>
     </div>

@@ -8,14 +8,14 @@ const E = () => {
             <header>
                 <h1 className="text-center bold">Envoy Unit</h1>
                 <div className="divider"></div>
-                <p>1 each side at a time selected during the Game (use new code (E))</p>
+                <p>1 each side at a time selected during the Game (use new code (E) to replace the original Unit Code)</p>
                 <div className="divider"></div>
                 <p className="bold">Unit Type: <span className="right">Conventional Unit</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">
                     <p className="bold">Use Scoring Code:<span className="right">Cash Value</span></p>
-                    <h1>(E)</h1> <span className="right lg-text">+1.0</span>
+                    <h1>(E)</h1> <span className="right lg-text">+1.0 added</span>
                 </div>
                 <div className="divider md"></div>
                 <div className="daily-value sm-text">

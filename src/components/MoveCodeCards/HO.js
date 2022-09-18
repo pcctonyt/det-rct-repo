@@ -3,14 +3,14 @@ import React from "react";
 const HO = () => {
   return (
     <div className="det-cards" id="cards">
-        <h1 className="text-center">Deterrence Movement Codes</h1>
+        <h1 className="text-center">Deterrence Move Element Codes</h1>
         <div className="label">
             <header>
-                <h1 className="text-center bold">Hand Off Movement Code</h1>
+                <h1 className="text-center bold">Hand Off Move Element Code</h1>
                 <div className="divider"></div>
                 <p>This Code allows for the transfer of both types of Mobile Nuclear and also Mobile SDI Defense Units from one friendly Conventional Unit to another, (for Nuclear Units, when both Conventional Units are of the same type).</p>
                 <div className="divider"></div>
-                <p className="bold">Code Type: <span className="right">Movement Code</span></p>
+                <p className="bold">Code Type: <span className="right">Move Element Code</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">
@@ -23,7 +23,7 @@ const HO = () => {
                     <div className="divider"></div>
                         <p><span className="bold">When to use:</span><span className="right">All Conventional Units can Hand Off Mobile SDI Defense Units, the player then reassigns the new Unit on that receiving square to be protected from Nuclear Unit Firing (F) Moves, using the (/) Operator Code.</span></p>
                         <div className="divider"></div>
-                        <p><span className="bold">When to use:</span><span className="right">Only Infantry Units can Hand Off Mobile Tactical Nuclear Units to only other Infantry.</span></p>
+                        <p><span className="bold">When to use:</span><span className="right">Only Infantry Units can Hand Off Mobile Tactical Nuclear Units to only other friendly Infantry Units.</span></p>
                     <div className="divider"></div>
                         <p><span className="bold">When to use:</span><span className="right">Only Units other than Infantry or the President Unit can Hand Off Mobile Intermediate Nuclear Units to other like Units.</span></p>
                         <div className="divider"></div>

@@ -3,14 +3,14 @@ import React from "react";
 const PU = () => {
   return (
     <div className="det-cards" id="cards">
-        <h1 className="text-center">Deterrence Movement Codes</h1>
+        <h1 className="text-center">Deterrence Move Element Codes</h1>
         <div className="label">
             <header>
-                <h1 className="text-center bold">Pick Up Movement Code</h1>
+                <h1 className="text-center bold">Pick Up Move Element Code</h1>
                 <div className="divider"></div>
                 <p>This Code allows for a Conventional Unit to pick up either type of friendly Mobile Nuclear and also Mobile SDI Defense Units from its(their) current resting square to the Conventional Unit's destination square, (for Nuclear Units, when the Conventional Unit is of the compatible type).</p>
                 <div className="divider"></div>
-                <p className="bold">Code Type: <span className="right">Movement Code</span></p>
+                <p className="bold">Code Type: <span className="right">Move Element Code</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">

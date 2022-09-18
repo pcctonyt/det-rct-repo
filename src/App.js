@@ -42,14 +42,14 @@ function App() {
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allOrders" onClick={() => setAllOrderCodes(true)}>All Score Sheet Order Element Codes</button>
-            <h2>The Order Codes allow you to affect changes to the game without the movement, addition, or removal of any Unit(s) from the Game Board.</h2>
+            <h2>The Order Element Codes allow you to affect changes to the game without the movement, addition, or removal of any Unit(s) from the Game Board.</h2>
             <Popup trigger={ allOrderCodes } setTrigger={ setAllOrderCodes }>
                   <OrderCodes />
             </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allMoves" onClick={() => setAllMoveCodes(true)}>All Score Sheet Move Element Codes</button>
-            <h2>The Movement Codes allow you to describe Unit movement, placement of new Unit(s), or removal of Unit(s) on the Game Board.</h2>
+            <h2>The Move Element Codes allow you to describe Unit movement, placement of new Unit(s), or removal of Unit(s) on the Game Board.</h2>
             <Popup trigger={ allMoveCodes } setTrigger={ setAllMoveCodes }>
                   <MoveCodes />
             </Popup>

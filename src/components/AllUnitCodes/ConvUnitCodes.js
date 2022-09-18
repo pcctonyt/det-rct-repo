@@ -1,33 +1,27 @@
 import React, { useState } from "react";
-import Popup from "../Popup/Popup.js";
 import "./UnitCodes.css";
-import P from "../DetCardsCopy/P";
 import A from "../DetCardsCopy/A";
 import E from "../DetCardsCopy/E";
 import G from "../DetCardsCopy/G";
 import Infantry from "../DetCardsCopy/Infantry";
 import L from "../DetCardsCopy/L";
+import P from "../DetCardsCopy/P";
+import Popup from "../Popup/Popup.js";
 import S from "../DetCardsCopy/S";
 import "./DetCards.css";
 
 const ConvUnitCodes = () => {
-  const [ presCode, setPresCode ]= useState(false);
   const [ airCode, setAirCode ]= useState(false);
   const [ envCode, setEnvCode ]= useState(false);
   const [ genCode, setGenCode ]= useState(false);
   const [ infCode, setInfCode ]= useState(false);
   const [ lieuCode, setLieuCode ]= useState(false);
+  const [ presCode, setPresCode ]= useState(false);
   const [ serCode, setSerCode ]= useState(false);
+
   return (
     <div>
         <h2>Conventional Unit Codes:  Click a button below for all of the information on that Unit!</h2>
-          <span>
-            <button id="PresidentCode" className="conv-codes-btn" onClick={() => setPresCode(true)}>President Unit: (P)</button>
-            <Popup trigger={ presCode } setTrigger={ setPresCode }>
-                <P />
-            </Popup>
-          </span>
-          
           <span>
             <button id="AirdropCode" className="conv-codes-btn" onClick={() => setAirCode(true)}>Airdrop Unit: (A)</button>
             <Popup trigger={ airCode } setTrigger={ setAirCode }>
@@ -62,7 +56,12 @@ const ConvUnitCodes = () => {
                 <L />
             </Popup>
           </span>
-
+          <span>
+            <button id="PresidentCode" className="conv-codes-btn" onClick={() => setPresCode(true)}>President Unit: (P)</button>
+            <Popup trigger={ presCode } setTrigger={ setPresCode }>
+                <P />
+            </Popup>
+          </span>
           <span>
             <button id="SergeantCode" className="conv-codes-btn" onClick={() => setSerCode(true)}>Sergeant Unit: (S)</button>
             <Popup trigger={ serCode } setTrigger={ setSerCode }>

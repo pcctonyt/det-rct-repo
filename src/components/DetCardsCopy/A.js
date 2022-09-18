@@ -29,7 +29,8 @@ const A = () => {
                     <div className="divider lg"></div>
                         <p>1. Either Airdrop Unit can be declared as an Envoy (adds 1.0 Cash Value Point).</p>
                         <p>2. There can be only one active Envoy per player per game.</p>
-                        <p className="no-divider">3. If the #2 or #3 option is selected for Promotion in the Treaty, an Infantry Unit can promote to an Airdrop Unit.</p>
+                        <p>3. If the #2 or #3 option is selected for Promotion in the Treaty, an Infantry Unit can promote to an Airdrop Unit.</p>
+                        <p className="no-divider">4. Airdrop Units can complete Move Elements over friendly or opposing Unit(s) as well as Fallout Squares in their movement paths.  However, they cannot end their movements on Fallout Squares.</p>
                     <div className="divider lg"></div>
                         <p className="note">NOTE:  During a capture move, the Airdrop Unit's Cash Value of +3.0 Points get awarded as Score Sheet Game Points to the capturing Player.  In the event that an attacking Player destroys an Airdrop Unit in a Nuclear Unit Firing Move, that Firing Player DOES NOT receive the +3.0 Points on the Score Sheet, but the other player still deducts the +3.0 Cash Value Game Points on the Score Sheet.</p>
                 </div>        

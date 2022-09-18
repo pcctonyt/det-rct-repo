@@ -50,11 +50,10 @@ const FIN = () => {
                     <p>4. The other player's destroyed Units are removed from the board and all the resulting Cash Value Points are lost.</p>
                     <p>5. All applicable Score Sheet Game Points must be tallied by both players.</p>
                     <p>6. Nuclear Units cannot destroy ANY Units on squares protected by Fixed SDI Defense Units.</p>
-                    <p>7. Nuclear Units cannot destroy ANY Units resting on a square with a Fixed SDI Defense Unit.</p>
-                    <p>8. Nuclear Units can destroy both friendly and opposing Units (sacrifices).</p>
-                    <p>9. Only 1 total Tactical or Intermediate Nuclear Unit of either type is allowed.  The Player Deploying (D) selects either a Mobile or Fixed type at that time, and that CANNOT BE changed later.</p>
-                    <p>10. The Intermediate Nuclear Unit type Deploys (D) during Complete Turns #11-#20, inclusive.</p>
-                    <p>11. All Deployed (D) Nuclear Units have a Complete Turn wait time before being Activated (C), non-inclusive of those two Turns.  This time limit can be changed during Treaty negotiations; the <em className="bold">Default Setting</em> is: 5-Turn Wait.</p>
+                    <p>7. Nuclear Units can destroy both friendly and opposing Units (sacrifices).</p>
+                    <p>8. Only 1 total Tactical or Intermediate Nuclear Unit of either type is allowed.  The Player Deploying (D) selects either a Mobile or Fixed type at that time, and that CANNOT BE changed later.</p>
+                    <p>9. The Intermediate Nuclear Unit type Deploys (D) during Complete Turns #11-#20, inclusive.</p>
+                    <p>10. All Deployed (D) Nuclear Units have a Complete Turn wait time before being Activated (C), non-inclusive of those two Turns.  This time limit can be changed during Treaty negotiations; the <em className="bold">Default Setting</em> is: 5-Turn Wait.</p>
                 </div>
                 <div className="divider lg"></div>
                     <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear/SDI Units has been turned off, all Order Codes related to the Fixed Intermediate Nuclear Unit become illegal (IMD-S).</p>
