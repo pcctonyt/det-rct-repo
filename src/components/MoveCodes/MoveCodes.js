@@ -3,25 +3,32 @@ import B from "../MoveCodeCards/B";
 import BB from "../MoveCodeCards/BB";
 import D from "../MoveCodeCards/D";
 import DO from "../MoveCodeCards/DO";
+import EnPassant from "../MoveCodeCards/EnPassant";
 import F from "../MoveCodeCards/F";
 import HO from "../MoveCodeCards/HO";
 import "./DetCards.css";
 import "./MoveCodes.css";
-import PU from "../MoveCodeCards/PU";
 import Popup from "../Popup/Popup.js";
+import Promotion from "../MoveCodeCards/Promotion";
+import ProtectPresLong from "../MoveCodeCards/ProtectPresLong";
+import PU from "../MoveCodeCards/PU";
+
 
 const MoveCodes = () => {
   const [ breachCode, setBreachCode ] = useState(false);
   const [ buyCode, setBuyCode ] = useState(false);
   const [ deployCode, setDeployCode ] = useState(false);
   const [ dropoffCode, setDropoffCode ] = useState(false);
+  const [ enPassantCode, setEnPassantCode ] = useState(false);
   const [ fireCode, setFireCode ] = useState(false);
   const [ handoffCode, setHandoffCode ] = useState(false);
   const [ pickupCode, setPickupCode ] = useState(false);
+  const [ promotionCode, setPromotionCode ] = useState(false);
+  const [ protectLongCode, setProtectLongCode ] = useState(false);
   
   return (
     <div>
-        <h2> Movement Codes:  Click a button below for all of the information on that Move Element type!</h2>
+        <h2> Move Element Codes:  Click a button below for all of the information on that Move Element type!</h2>
           <span>
             <button id="BorderBreachCode" className="move-codes-btn" onClick={() => setBreachCode(true)}>Border Breach Move Element: (BB)</button>
             <Popup trigger={ breachCode } setTrigger={ setBreachCode }>
@@ -47,6 +54,12 @@ const MoveCodes = () => {
             </Popup>
           </span>
           <span>
+            <button id="EnPassantCode" className="move-codes-btn" onClick={() => setEnPassantCode(true)}>En Passant Move Element: (e.p.)</button>
+            <Popup trigger={ enPassantCode } setTrigger={ setEnPassantCode }>
+                <EnPassant />
+            </Popup>
+          </span>
+          <span>
             <button id="FireCode" className="move-codes-btn" onClick={() => setFireCode(true)}>Fire Move Element: (F)</button>
             <Popup trigger={ fireCode } setTrigger={ setFireCode }>
                 <F />
@@ -62,6 +75,18 @@ const MoveCodes = () => {
             <button id="PickUpCode" className="move-codes-btn" onClick={() => setPickupCode(true)}>Pick Up Move Element: (PU)</button>
             <Popup trigger={ pickupCode } setTrigger={ setPickupCode }>
                 <PU />
+            </Popup>
+          </span>
+          <span>
+            <button id="PromotionCode" className="move-codes-btn" onClick={() => setPromotionCode(true)}>Promotion Move Element: ((square code)=)</button>
+            <Popup trigger={ promotionCode } setTrigger={ setPromotionCode }>
+                <Promotion />
+            </Popup>
+          </span>
+          <span>
+            <button id="ProtectPresLongCode" className="move-codes-btn" onClick={() => setProtectLongCode(true)}>Protect the President - Long Move Element: (O-O-O)</button>
+            <Popup trigger={ protectLongCode } setTrigger={ setProtectLongCode }>
+                <ProtectPresLong />
             </Popup>
           </span>
     </div>
