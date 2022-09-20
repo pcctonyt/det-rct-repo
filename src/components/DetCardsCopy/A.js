@@ -21,16 +21,27 @@ const A = () => {
                 <div className="daily-value sm-text">
                     <p className="bold no-divider">Fixed Rules (cannot change):</p>
                     <div className="divider"></div>
-                        <p><span className="bold">Movement:</span><span className="bold right">They move as the Knights in chess do (see Official Rules)</span></p>
+                        <p><span className="bold">Movement:</span><span className="bold right">They move as the Knights in chess do (see below)</span></p>
                     
                         <p className="no-divider"><span className="bold">They pair with the 2 Intermediate Nuclear Unit Types (Fixed / Mobile)</span></p>
                     <div className="divider md"></div>
                         <p className="no-divider"><span className="bold">Rules for the Airdrop Units</span></p>
                     <div className="divider lg"></div>
-                        <p>1. Either Airdrop Unit can be declared as an Envoy (adds 1.0 Cash Value Point).</p>
+                        <p>1. Either Airdrop Unit can be declared as an Envoy (adds +1.0 Cash Value Point to that specific Unit's Cash Value (see Official Rules:  All Score Sheet Rules, for more information)).</p>
                         <p>2. There can be only one active Envoy per player per game.</p>
                         <p>3. If the #2 or #3 option is selected for Promotion in the Treaty, an Infantry Unit can promote to an Airdrop Unit.</p>
                         <p className="no-divider">4. Airdrop Units can complete Move Elements over friendly or opposing Unit(s) as well as Fallout Squares in their movement paths.  However, they cannot end their movements on Fallout Squares.</p>
+                        <div className="divider md"></div>
+                        <p className="text-center no-divider">AIRDROP UNIT-SPECIFIC MOVEMENT RULES:</p>
+                        <div className="divider md"></div>
+                        <p>1. The Airdrop Units, when making Move Elements, move ALWAYS ONLY THREE CONSECUTIVE ADJACENT squares in either one selected of the horizontal OR the vertical directions AND THEN 1 square PERPENDICULAR-ADJACENT to the 3rd of the chosen first three squares.  An example of this for the Airdrop Unit moving from square b1 to square c3 would be: <em>Ac3</em>.</p>
+                        <div className="divider"></div>
+                        <p>2.  Each Airdrop Unit can "fly over" any Unit(s), friend or foe, in its movement path, and, as in the case of other Conventional Units, it replaces other OPPOSING UNITS OF ALL TYPES only on that Player's choice of its final resting square during that Move Element (the opposing Units are removed from the Game Board, see Official Rules: Captures (x) and Destroys (z) Operator Codes, for more information).</p>
+                        <p>3.  All Score Sheet Game Points and Cash Value Game Points must be accurately recorded and then added to their respective totals on the Score Sheet when applicable.</p>
+                        <p>4.  Note that, like other Conventional Units, the Airdrop Unit CANNOT MOVE to a final resting square occupied by a FRIENDLY CONVENTIONAL Unit, as each square can hold only a MAXIMUM of ONE CONVENTIONAL UNIT at a time.</p>
+                        <p>5.  If the Airdrop Unit lands on a square where either Mobile Nuclear or Mobile SDI Defense Unit(s) or both are already is or are resting there, then only UP TO ONE of those Units can be moved by the Airdrop Unit during subsequent Move Elements.</p>
+                        <p>6.  The Firing Range of the Mobile Intermediate Nuclear Unit is LIMITED TO the movement range of the Airdrop Unit if it currently is with the Airdrop Unit or if the Airdrop Unit was the most recently accompanying Unit to the MIN.</p>
+                        <p className="no-divider">7.  Airdrop Units can complete Move Elements over friendly or opposing Unit(s) as well as Fallout Squares in their movement paths.  However, they cannot end their movements on Fallout Squares.</p>
                     <div className="divider lg"></div>
                         <p className="note">NOTE:  During a capture move, the Airdrop Unit's Cash Value of +3.0 Points get awarded as Score Sheet Game Points to the capturing Player.  In the event that an attacking Player destroys an Airdrop Unit in a Nuclear Unit Firing Move, that Firing Player DOES NOT receive the +3.0 Points on the Score Sheet, but the other player still deducts the +3.0 Cash Value Game Points on the Score Sheet.</p>
                 </div>        

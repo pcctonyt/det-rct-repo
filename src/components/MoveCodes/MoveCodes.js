@@ -11,6 +11,7 @@ import "./MoveCodes.css";
 import Popup from "../Popup/Popup.js";
 import Promotion from "../MoveCodeCards/Promotion";
 import ProtectPresLong from "../MoveCodeCards/ProtectPresLong";
+import ProtectPresShort from "../MoveCodeCards/ProtectPresShort";
 import PU from "../MoveCodeCards/PU";
 
 
@@ -25,6 +26,7 @@ const MoveCodes = () => {
   const [ pickupCode, setPickupCode ] = useState(false);
   const [ promotionCode, setPromotionCode ] = useState(false);
   const [ protectLongCode, setProtectLongCode ] = useState(false);
+  const [ protectShortCode, setProtectShortCode ] = useState(false);
   
   return (
     <div>
@@ -87,6 +89,12 @@ const MoveCodes = () => {
             <button id="ProtectPresLongCode" className="move-codes-btn" onClick={() => setProtectLongCode(true)}>Protect the President - Long Move Element: (O-O-O)</button>
             <Popup trigger={ protectLongCode } setTrigger={ setProtectLongCode }>
                 <ProtectPresLong />
+            </Popup>
+          </span>
+          <span>
+            <button id="ProtectPresShortCode" className="move-codes-btn" onClick={() => setProtectShortCode(true)}>Protect the President - Short Move Element: (O-O)</button>
+            <Popup trigger={ protectShortCode } setTrigger={ setProtectShortCode }>
+                <ProtectPresShort />
             </Popup>
           </span>
     </div>
