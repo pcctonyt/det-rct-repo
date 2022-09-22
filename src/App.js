@@ -6,7 +6,7 @@ import SDIUnitCodes from "./components/AllUnitCodes/SDIUnitCodes";
 import OrderCodes from "./components/OrderCodes/OrderCodes";
 import MoveCodes from "./components/MoveCodes/MoveCodes";
 import ScoreOperators from "./components/OperatorCodes/OperatorCodes";
-import ConvUnitRules from "./components/ConvUnitRules/ConvUnitRules";
+import ConvUnitRules from "./components/GeneralGameRules/GenGameRules";
 import NucSDIRules from "./components/NucSDIRules/NucSDIRules";
 import ScoreRules from "./components/ScoreRules/ScoreRules";
 import TreatyRules from "./components/TreatyRules/TreatyRules";
@@ -26,8 +26,8 @@ function App() {
   return (
     <div className="deterrence-game-wrapper">
       <header className="deterrence-rules-header-wrapper">
-        <h1>Deterrence Official Rules by Section</h1>
-        <h2>Click a button to learn more!</h2>
+        <h1 id="style-override">Deterrence Official Rules by Section</h1>
+        <h2 id="style-override">Click a button to learn more!</h2>
       </header>
       <div className="deterrence-rules-wrapper">
 
@@ -62,8 +62,8 @@ function App() {
                 </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
-            <button className="deterrence-app-btn" id="allConvRules" onClick={() => setAllConventionalRules(true)}>All Conventional Unit Rules</button>
-            <h2>The Official Rules for Conventional Units describe thier placement, movement, orders, and applicable Treaty selections available.</h2>
+            <button className="deterrence-app-btn" id="allConvRules" onClick={() => setAllConventionalRules(true)}>All General Game Rules</button>
+            <h2>The Official Rules for the Game describe how the game is initially set up, how it starts, and how it ends.</h2>
             <Popup trigger={ allConventionalRules } setTrigger={ setAllConventionalRules }>
                   <ConvUnitRules />
                 </Popup>
@@ -84,7 +84,7 @@ function App() {
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allTreatyRules" onClick={() => setAllTreatyChartRules(true)}>All Treaty Negotiations Chart Rules</button>
-            <h2>The Deterrence Official Treaty Negotiations Chart v5.1.1 allows players one time each per game to change Variable Rules and Points Settings.</h2>
+            <h2>The Deterrence Official Treaty Negotiations Chart v5.2.2 allows players one time each per game to change Variable Rules and Points Settings.</h2>
             <Popup trigger={ allTreatyChartRules } setTrigger={ setAllTreatyChartRules }>
                   <TreatyRules />
                 </Popup>

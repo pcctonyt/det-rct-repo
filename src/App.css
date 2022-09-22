@@ -8,6 +8,9 @@ body {
     background-color: green;
 }
 
+#style-override {
+  color: blue;
+}
 .deterrence-game-wrapper {
   display: flex;
   flex-direction: column;

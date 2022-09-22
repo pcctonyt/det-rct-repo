@@ -1,0 +1,11 @@
+.general-rules-wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.board-codes-btn {
+    background-color: brown;
+    color: orange;
+    padding: .25rem;
+    border-radius: .625rem;
+}
