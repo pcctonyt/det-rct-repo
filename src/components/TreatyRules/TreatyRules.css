@@ -1,3 +1,59 @@
-.treaty-rules {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.treaty-rules-wrapper {
     background-color: white;
+    font-family: "Lato", sans-serif;
+}
+.text-center {
+    text-align: center;
+}
+.text-center-bold {
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: .25rem 0;
+    border-radius: .625rem;
+}
+
+.section-color {
+    background-color: lightblue;
+    color: blue;
+    border-radius: .625rem;
+}
+
+.selection-color {
+    background-color: beige;
+}
+
+.points-setting-color {
+    background-color: lightyellow;
+}
+.indent {
+    margin-left: 1rem;
+    margin-right: 18rem;
+}
+
+.padding-top {
+    padding-top: 1rem;
+}
+
+.padding-bottom {
+    padding-bottom: 1rem;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    clear: right;
+  }
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.bold.divider {
+    text-align: left;
+    margin-right: 18rem;
 }
