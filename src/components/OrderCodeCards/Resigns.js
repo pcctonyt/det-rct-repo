@@ -8,7 +8,7 @@ const Resigns = () => {
             <header>
                 <h1 className="text-center bold"><em>Resigns</em> Order Element Code</h1>
                 <div className="divider"></div>
-                <p>This Order Element Code indicates that a Player has requested that the game be ended with a concession of POSITIONAL DEFEAT ONLY, prior to that Player experiencing other possible outcomes resulting in positional defeat (i.e. checkmate) to end the game.  After this Order Element Code is used, the game ends immediately, and both Players must tally ALL GAME POINTS (both Score Sheet and Cash Value) to determine the outcome for assigning the second Outcome Point (see Official Rules: Score Sheet Rules, for more information).</p>
+                <p>This Code indicates that a Player has requested that the game be ended with a concession of POSITIONAL DEFEAT ONLY, prior to that Player experiencing other possible outcomes resulting in positional defeat (i.e. Checkmate (#)) to end the game.  After this Order Element Code is used, the game ends immediately, and both Players must tally ALL GAME POINTS (both Score Sheet and Cash Value) to determine the outcome for assigning the second Outcome Point (see Official Rules: Score Sheet Rules or General Game Rules, for more information).</p>
                 <div className="divider"></div>
                 <p className="bold">Code Type: <span className="right">Order Element Code</span></p>
             </header>

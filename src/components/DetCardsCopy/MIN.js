@@ -57,7 +57,7 @@ const MIN = () => {
                     <p>11. All Deployed (D) Nuclear Units have a Complete Turn wait time before being Activated (C), non-inclusive of those two Turns.  This time limit can be changed during Treaty negotiations; the <em className="bold">Default Setting</em> is: 5-Turn Wait.</p>
                 </div>
                 <div className="divider md"></div>
-                    <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear/SDI Units has been turned off, all Movement and Order Codes related to the Mobile Intermediate Nuclear Unit become illegal (IMD-S).</p>
+                    <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear and SDI Units has been turned off, all Order and Move Element Codes related to the Mobile Intermediate Nuclear Unit become illegal (IED-S).</p>
         </div>
     </div>
   )

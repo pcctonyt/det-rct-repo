@@ -6,11 +6,11 @@ const ENEG_N = () => {
         <h1 className="text-center">Deterrence Order Codes</h1>
         <div className="label">
             <header>
-                <h1 className="text-center bold">End Treaty Negotiations No Treaty Order Code</h1>
+                <h1 className="text-center bold">End Treaty Negotiations No Treaty Order Element Code</h1>
                 <div className="divider"></div>
-                <p>This Order Code indicates when a Player ends Treaty Negotiations requested from the other Player in either Round and a Treaty is NOT AGREED TO.  The Player using this Order Code either rejects a Treaty outright or the negotiations do not produce a valid Treaty (where both players agree to make EXACTLY THE SAME changes).  Deterrence's Fixed Rules (see Official Rules: Fixed vs Variable Rules) cannot be changed.  This Order Code ALWAYS COUNTS as one COMPLETE TURN, since the immediate Turn resumes the Game as usual.</p>
+                <p>This Code indicates when a Player ends Treaty Negotiations requested from the other Player in either Round and a Treaty is NOT AGREED TO.  The Player using this Code either rejects a Treaty outright or the negotiations do not produce a valid Treaty (where both players agree to make EXACTLY THE SAME changes).  Deterrence's Fixed Rules (see Official Rules: Fixed vs Variable Rules) cannot be changed.  This Order Element Code ALWAYS COUNTS as one COMPLETE TURN, since the immediate Turn resumes the Game as usual.</p>
                 <div className="divider"></div>
-                <p className="bold">Code Type: <span className="right">Order Code</span></p>
+                <p className="bold">Code Type: <span className="right">Order Element Code</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">
@@ -22,7 +22,7 @@ const ENEG_N = () => {
                     <p className="bold no-divider">Fixed Rules (cannot change):</p>
                     <div className="divider"></div>
                         <div className="divider"></div>
-                        <p><span className="bold">The End Treaty Negotiations No Treaty Order Code does not have a Points Rule:</span></p>
+                        <p><span className="bold">The End Treaty Negotiations No Treaty Order Element Code does not have a Points Rule:</span></p>
                         <div className="divider"></div>
                         <p><span className="bold">Answering Player's options:</span><span className="right"></span></p>
                         <p>1.  Refuse to implement a Treaty outright (ENEG-N) (preserves the Default Settings within the Treaty Negotiations Chart in the 1st Round or the 1st Treaty in the 2nd Round if applicable)</p>

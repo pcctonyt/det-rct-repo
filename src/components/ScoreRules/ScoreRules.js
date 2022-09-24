@@ -1,8 +1,9 @@
 import React from "react";
+import './ScoreRules.css';
 
 const ScoreRules = () => {
   return (
-    <div>
+    <div className="score-rules-wrapper">
         <h1>Deterrence Official Score Sheet v5.x.x:  Rules Section</h1>
         <h2>Official Rules for the Score Sheet</h2>
         <p>Each Player uses a Score Sheet for that Player to record events that occur throughout the course of the entire game.  Since certain Move Elements and Order Elements have time limitations associated with them, the Score Sheet determines what occurred at what point during the Game.  The Score Sheet relies upon Codes ( can be Unit, Order Element, and Move Element) that the Players use on each of their Score Sheets to describe what takes place during that Player's Complete Turn.  In chess, every move is itself only one move during that Player's turn, so the term "move" suffices.  However, in Deterrence, there can be multiple changes to the Game coming from that Player's Complete Turn, so the distinction has to be made between an Element and a Complete Turn.</p>

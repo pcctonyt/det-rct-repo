@@ -7,8 +7,8 @@ import DecE from "../OrderCodeCards/DecE";
 import ENEG_N from "../OrderCodeCards/ENEG_N";
 import ENEG_R from "../OrderCodeCards/ENEG_R";
 import ENEG_Y from "../OrderCodeCards/ENEG_Y";
-import IMD_S from "../OrderCodeCards/IMD_S";
-import IMD_U from "../OrderCodeCards/IMD_U";
+import IED_S from "../OrderCodeCards/IED_S";
+import IED_U from "../OrderCodeCards/IED_U";
 import Popup from "../Popup/Popup.js";
 import R from "../OrderCodeCards/R";
 import Resigns from "../OrderCodeCards/Resigns";
@@ -71,15 +71,15 @@ const [ resignsCode, setResignsCode ] = useState(false);
             </Popup>
           </span>
           <span>
-            <button id="YesIllegalMove" className="order-codes-btn" onClick={() => setIllegalYes(true)}>Illegal Move Declared - Successfully Order Element: (IMD-S)</button>
+            <button id="YesIllegalElement" className="order-codes-btn" onClick={() => setIllegalYes(true)}>Illegal Element Declared - Successfully Order Element: (IED-S)</button>
             <Popup trigger={ illegalYes } setTrigger={ setIllegalYes }>
-                <IMD_S />
+                <IED_S />
             </Popup>
           </span>
           <span>
-            <button id="NoIllegalMove" className="order-codes-btn" onClick={() => setIllegalNo(true)}>Illegal Move Declared - Unuccessfully Order Element: (IMD-U)</button>
+            <button id="NoIllegalelement" className="order-codes-btn" onClick={() => setIllegalNo(true)}>Illegal Element Declared - Unsuccessfully Order Element: (IED-U)</button>
             <Popup trigger={ illegalNo } setTrigger={ setIllegalNo }>
-                <IMD_U />
+                <IED_U />
             </Popup>
           </span>
           <span>

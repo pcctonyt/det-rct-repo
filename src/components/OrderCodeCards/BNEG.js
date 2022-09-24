@@ -3,14 +3,14 @@ import React from "react";
 const BNEG = () => {
   return (
     <div className="det-cards" id="cards">
-        <h1 className="text-center">Deterrence Order Codes</h1>
+        <h1 className="text-center">Deterrence Order Element Codes</h1>
         <div className="label">
             <header>
-                <h1 className="text-center bold">Begin Treaty Negotiations Order Code</h1>
+                <h1 className="text-center bold">Begin Treaty Negotiations Order Element Code</h1>
                 <div className="divider"></div>
-                <p>This Order Code indicates when a Player requests Treaty Negotiations from the other Player.  One, some, or all of either the Variable Rules or the Points Settings may be changed.  The Deterrence Official Treaty Negotiations Chart determines which Variable Rules and Points Settings these are.  This Order Code ALWAYS COUNTS as one COMPLETE TURN, since the immediate Turn will use one of the ENEG- Order Codes to reveal how the negotiations fared.  Each Player has but ONE OPPORTUNITY to use this Order Code throughout the entire Game.</p>
+                <p>This Code indicates when a Player requests Treaty Negotiations from the other Player.  One, some, or all of either the Variable Rules or the Points Settings may be changed.  The Deterrence Official Treaty Negotiations Chart determines which Variable Rules and Points Settings these are.  This Code ALWAYS COUNTS as one COMPLETE TURN, since the immediate Turn will use one of the ENEG- Order Element Codes to reveal how the negotiations fared.  Each Player has but ONE OPPORTUNITY to use this Code throughout the entire Game.</p>
                 <div className="divider"></div>
-                <p className="bold">Code Type: <span className="right">Order Code</span></p>
+                <p className="bold">Code Type: <span className="right">Order Element Code</span></p>
             </header>
                 <div className="divider lg"></div>
                 <div className="units-info">
@@ -22,7 +22,7 @@ const BNEG = () => {
                     <p className="bold no-divider">Fixed Rules (cannot change):</p>
                     <div className="divider"></div>
                         <div className="divider"></div>
-                        <p><span className="bold">The Begin Treaty Negotiations Order Code does not have a Points Rule:</span></p>
+                        <p><span className="bold">The Begin Treaty Negotiations Order Element Code does not have a Points Rule:</span></p>
                     
                         <div className="divider"></div>
                         <p><span className="bold">Answering Player's options:</span><span className="right"></span></p>

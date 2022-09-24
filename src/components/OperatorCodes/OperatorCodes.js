@@ -5,11 +5,10 @@ import Check from "../OperCodeCards/Check";
 import Checkmate from "../OperCodeCards/Checkmate";
 import Destroys from "../OperCodeCards/Destroys";
 import Listing from "../OperCodeCards/Listing";
-//import PairsWith from "../OperCodeCards/PairsWith";
+import PairsWith from "../OperCodeCards/PairsWith";
 import "./DetCards.css";
 import "./OperatorCodes.css";
 import Popup from "../Popup/Popup.js";
-//import Promotion from "../OperCodeCards/Promotion";
 import Separator from "../OperCodeCards/Separator";
 
 const OperatorCodes = () => {
@@ -18,8 +17,7 @@ const OperatorCodes = () => {
   const [ checkmateCode, setCheckmateCode ] = useState(false);
   const [ destroysCode, setDestroysCode ] = useState(false);
   const [ listingCode, setListingCode ] = useState(false);
-  //const [ pairsWithCode, setPairsWithCode ] = useState(false);
-  //const [ promotionCode, setPromotionCode ] = useState(false);
+  const [ pairsWithCode, setPairsWithCode ] = useState(false);
   const [ separatorCode, setSeparatorCode ] = useState(false);
   
   return (
@@ -56,26 +54,17 @@ const OperatorCodes = () => {
             </Popup>
           </span>
           <span>
-            <button id="SeparatorCode" className="operator-codes-btn" onClick={() => setSeparatorCode(true)}>Separator Operator: (-)</button>
-            <Popup trigger={ separatorCode } setTrigger={ setSeparatorCode }>
-                <Separator />
-            </Popup>
-  </span>
-          {/*
-          
-          <span>
             <button id="PairsWithCode" className="operator-codes-btn" onClick={() => setPairsWithCode(true)}>Pairs With Operator: (/)</button>
             <Popup trigger={ pairsWithCode } setTrigger={ setPairsWithCode }>
                 <PairsWith />
             </Popup>
           </span>
           <span>
-            <button id="PromotionCode" className="operator-codes-btn" onClick={() => setPromotionCode(true)}>Promotion Operator: (=)</button>
-            <Popup trigger={ promotionCode } setTrigger={ setPromotionCode }>
-                <Promotion />
+            <button id="SeparatorCode" className="operator-codes-btn" onClick={() => setSeparatorCode(true)}>Separator Operator: (-)</button>
+            <Popup trigger={ separatorCode } setTrigger={ setSeparatorCode }>
+                <Separator />
             </Popup>
           </span>
-           */}
     </div>
   )
 }

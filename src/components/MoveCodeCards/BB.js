@@ -29,7 +29,7 @@ const BB = () => {
                     <div className="divider lg"></div>
                         <p className="no-divider"><span className="bold">The Border Breach Move Element Code also needs to be used when a Fired (F) Nuclear Unit destroys at least ONE UNIT in the opposing Player's territory.</span></p>
                     <div className="divider lg"></div>
-                        <p className="note">NOTE:  The Border Breach Move Element is always NOT ITSELF a Complete Turn, but rather its Move Element pairs with the previously indicated Move Element(s) of any Unit(s) for that COMPLETE TURN.  Score Sheet Complete Turn entry example: PU-MINd4,Gd8-<em>BB</em>  A General moves from any one of three prior starting squares (d1, d2, or d3), and "Picks Up" a Mobile Intermediate Nuclear Unit on square d4, and the both move to square d8, crossing an agreed-to Border installed earlier along the way.</p>
+                        <p className="note">NOTE:  The Border Breach Move Element is always NOT ITSELF a Complete Turn, but rather its Move Element pairs with the previously indicated Element(s) of any Unit(s) for that COMPLETE TURN.  Score Sheet Complete Turn entry example: PU-MINd4,Gd8-<em>BB</em>  A General moves from any one of three prior starting squares (d1, d2, or d3), and "Picks Up" a Mobile Intermediate Nuclear Unit on square d4, and the both move to square d8, crossing an agreed-to Border installed earlier along the way.</p>
                 </div>        
         </div>
     </div>

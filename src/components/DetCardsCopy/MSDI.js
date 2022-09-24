@@ -48,7 +48,7 @@ const MSDI = () => {
                     <p>7. Mobile SDI Defense Units can be captured by opposing Conventional Units in the same manner as Mobile Nuclear Units.</p>
                 </div>
                 <div className="divider md"></div>
-                    <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear/SDI Units has been turned off, all Movement and Order Codes related to the Mobile SDI Defense Unit become illegal (IMD-S).</p>
+                    <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear and SDI Units has been turned off, all Order and Move Element Codes related to the Mobile SDI Defense Unit become illegal (IED-S).</p>
         </div>
     </div>
   )

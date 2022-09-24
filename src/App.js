@@ -56,14 +56,14 @@ function App() {
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allScoreOpers" onClick={() => setAllScoreOpersCodes(true)}>All Score Sheet Operator Codes</button>
-            <h2>The Score Sheet Operator Codes allow you to describe what occurs between Units and their Orders and Movements</h2>
+            <h2>The Score Sheet Operator Codes allow you to describe what occurs between Units and their Orders and Movements on the Game Board.</h2>
             <Popup trigger={ allScoreOpersCodes } setTrigger={ setAllScoreOpersCodes }>
                   <ScoreOperators />
                 </Popup>
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allConvRules" onClick={() => setAllConventionalRules(true)}>All General Game Rules</button>
-            <h2>The Official Rules for the Game describe how the game is initially set up, how it starts, and how it ends.</h2>
+            <h2>The Official Rules for the Game describe how the game is initially set up, how it starts, how it is played in general, and how it ends.</h2>
             <Popup trigger={ allConventionalRules } setTrigger={ setAllConventionalRules }>
                   <ConvUnitRules />
                 </Popup>
@@ -77,7 +77,7 @@ function App() {
           </span>
           <span className="deterrence-app-btn-wrapper">
             <button className="deterrence-app-btn" id="allScoreRules" onClick={() => setAllScoreSheetRules(true)}>All Score Sheet Rules</button>
-            <h2>The Deterrence Official Score Sheet v5.0.1 allows players to accurately reflect game events and record their scores to determine outcome.</h2>
+            <h2>The Deterrence Official Score Sheet v5.0.1 allows players to record all game events and tracking Game Points to award BOTH Outcome Points.</h2>
             <Popup trigger={ allScoreSheetRules } setTrigger={ setAllScoreSheetRules }>
                   <ScoreRules />
                 </Popup>

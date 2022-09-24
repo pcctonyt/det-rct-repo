@@ -47,7 +47,7 @@ const FSDI = () => {
                     <p className="no-divider">4. Fixed SDI Defense Units can be destroyed by opposing Conventional Units in the same manner as Fixed Nuclear Units.</p>
                 </div>
                 <div className="divider lg"></div>
-                    <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear/SDI Units has been turned off, all Order Codes related to the Fixed SDI Defense Unit become illegal (IMD-S).</p>
+                    <p className="note">NOTE:  In the event of a Treaty where the use of Nuclear and SDI Units has been turned off, all Order and Move Element Codes related to the Fixed SDI Defense Unit become illegal (IED-S).</p>
         </div>
     </div>
   )

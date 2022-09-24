@@ -3,10 +3,23 @@
 .treaty-rules-wrapper {
     background-color: white;
     font-family: "Lato", sans-serif;
+    padding: 0.5rem;
+}
+
+.treaty-chart-btn {
+    background-color: cyan;
+    color: magenta;
+    padding: .25rem;
+    border-radius: .625rem;
 }
 .text-center {
     text-align: center;
 }
+
+.rule {
+    border: none;
+}
+
 .text-center-bold {
     font-weight: bold;
     text-align: center;
@@ -29,9 +42,14 @@
 .points-setting-color {
     background-color: lightyellow;
 }
+
+.nukes-setting-color {
+    background-color: gray;
+    color: rgb(6, 70, 115);
+    border-radius: .625rem;
+}
 .indent {
-    margin-left: 1rem;
-    margin-right: 18rem;
+    margin-left: .5rem;
 }
 
 .padding-top {
