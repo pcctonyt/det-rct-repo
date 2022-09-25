@@ -1,13 +1,13 @@
 .section-six-wrapper {
-    background-color: green;
-    border: .3125rem solid yellow;
+    background-color: rgb(10, 97, 10);
     border-radius: .625rem;
-    color: yellow;
+    margin-top: -2.5rem;
+    color: rgb(200, 200, 28);
 }
 
 .six {
     text-align: center;
-    color: yellow;
+    color: rgb(200, 200, 28);
 }
 
 .form-control.six-radio {

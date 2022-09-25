@@ -1,13 +1,13 @@
 import React from "react";
 import "./SectionOne.css";
+import AcceptCounterOffer from "../Buttons/AcceptCounterOffer";
 import OfferButton from "../Buttons/OfferButton";
 import SubmitButton from "../Buttons/SubmitButton";
 
 const SectionOne = () => {
   return (
     <div className="section-one-wrapper" id="section-1">
-        <h3 className="one">Conditions For A Drawn Game:</h3>
-        <h4>Conditions for Drawn Positions:</h4>
+        <h3 className="one">Conditions for a Drawn Position (1st Outcome Point):</h3>
         <form>
           <h5>Consecutive Complete Turn Limit (inclusive):</h5>
           <label htmlFor="turns">
@@ -38,6 +38,7 @@ const SectionOne = () => {
           <input id="turnsRep" type="number" name="turnsRep" min="1" step="1" max="10"placeholder="3" />
         </form>
         <OfferButton />
+        <AcceptCounterOffer />
         <SubmitButton />
     </div>
   )

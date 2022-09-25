@@ -4,7 +4,7 @@ import "./Buttons.css";
 const OfferButton = () => {
   return (
     <div>
-        <button className="section-btn offer">Offer Changes</button>
+        <button className="section-btn offer" id="section-two-offer-btn-color">Offer Changes</button>
     </div>
   )
 }

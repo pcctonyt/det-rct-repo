@@ -20,6 +20,14 @@
     border: none;
 }
 
+.inf-handoff-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .text-center-bold {
     font-weight: bold;
     text-align: center;

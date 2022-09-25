@@ -1,5 +1,5 @@
 .section-two-wrapper {
-    background-color: yellow;
+    background-color: rgb(181, 181, 68);
     border: .3125rem solid green;
     border-radius: .625rem;
     color: green;
@@ -13,3 +13,4 @@
 .form-control.two-radio {
     font-size: .8rem;
 }
+

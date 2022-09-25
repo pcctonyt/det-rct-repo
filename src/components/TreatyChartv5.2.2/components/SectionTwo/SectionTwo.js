@@ -1,5 +1,6 @@
 import React from "react";
 import "./SectionTwo.css";
+import AcceptCounterOffer from "../Buttons/AcceptCounterOffer";
 import OfferButton from "../Buttons/OfferButton";
 import SubmitButton from "../Buttons/SubmitButton";
 
@@ -30,35 +31,36 @@ const SectionTwo = () => {
         </form>
         <form>
             <h5>Points Settings:</h5>
-            <label htmlFor="depPts">
-              <input type="number" min="-10" step="1" max="10" name="depPts" placeholder="0.0" />Deploy:
+            <label htmlFor="depPts">Deploy:
+              <input type="number" min="-10" step="1" max="10" name="depPts" placeholder="0.0" />
             </label>
-            <label htmlFor="actPts-desPres">
-              <input type="number" min="-10" step="1" max="10" name="actPts" placeholder="0.0"/>Activate:
+            <label htmlFor="actPts-desPres">Activate:
+              <input type="number" min="-10" step="1" max="10" name="actPts" placeholder="0.0"/>
             </label>
-            <label htmlFor="armPts-desPres">
-              <input type="number" min="-10" step="1" max="10" name="armPts" placeholder="0.0"/>Arm:
+            <label htmlFor="armPts-desPres">Arm:
+              <input type="number" min="-10" step="1" max="10" name="armPts" placeholder="0.0"/>
             </label>
-            <label htmlFor="firPts-desPres">
-              <input type="number" min="-10" step="1" max="10"name="firPts"  placeholder="0.0"/>Fire:
+            <label htmlFor="firPts-desPres">Fire:
+              <input type="number" min="-10" step="1" max="10"name="firPts"  placeholder="0.0"/>
             </label>
-            <label htmlFor="firPts-desPres">
-              <input type="number" min="-10" step="1" max="10"name="buySDI"  placeholder="-2.0"/>B:
+            <label htmlFor="firPts-desPres">B:
+              <input type="number" min="-10" step="1" max="10"name="buySDI"  placeholder="-2.0"/>
             </label>
-            <label htmlFor="firPts-desPres">
-              <input type="number" min="-10" step="1" max="10"name="desPres"  placeholder="-10.0"/>Destroy President:
+            <label htmlFor="firPts-desPres">Destroy President:
+              <input type="number" min="-10" step="1" max="10"name="desPres"  placeholder="-10.0"/>
             </label>
         </form>
         <form>
             <h5>Complete Turn Wait (Nuclear Unit Activation) Setting:</h5>
-            <label htmlFor="turnWait">
-              <input type="number" min="1" step="1" max="100" name="turnWait" placeholder="5" />Turn Wait Time:
+            <label htmlFor="turnWait">Turn Wait Time:
+              <input type="number" min="1" step="1" max="100" name="turnWait" placeholder="5" />
             </label>
         </form>
         <form>
 
         </form>
-        <OfferButton />
+        <OfferButton  />
+        <AcceptCounterOffer />
         <SubmitButton />
     </div>
   )

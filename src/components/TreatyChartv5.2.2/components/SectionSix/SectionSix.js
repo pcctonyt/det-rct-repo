@@ -1,12 +1,13 @@
 import React from "react";
 import "./SectionSix.css";
+import AcceptCounterOffer from "../Buttons/AcceptCounterOffer";
 import OfferButton from "../Buttons/OfferButton";
 import SubmitButton from "../Buttons/SubmitButton";
 
 const SectionSix = () => {
   return (
     <div className="section-six-wrapper" id="section-6">
-      <h3 className="six">Borders Rules and Points:</h3>
+      <h3 className="six">Border Rules and Enforcement Points Setting:</h3>
       <form>
         <h5>Install a Border?</h5>
         <label className="form-control six-radio" htmlFor="born-bory">
@@ -29,7 +30,7 @@ const SectionSix = () => {
         </label>
 
         <h5>Enforcement Type (Select Only One):</h5>
-        <label className="form-control six-radio" htmlFor="boren1-boren5">Absolute
+        <label className="form-control six-radio" htmlFor="boren1-boren5">Absolute (every time)
           <input type="radio" name="boren1-boren5" id="boren1" value="boren1" />
         </label>
         <label className="form-control six-radio" htmlFor="boren1-boren5">Staircase Overall
@@ -38,7 +39,7 @@ const SectionSix = () => {
         <label className="form-control six-radio" htmlFor="boren1-boren5">Staircase Each Player
           <input type="radio" name="boren1-boren5" id="boren3" value="boren3" />
         </label>
-        <label className="form-control six-radio" htmlFor="boren1-boren5">Once Overall
+        <label className="form-control six-radio" htmlFor="boren1-boren5">Once Total Overall
           <input type="radio" name="boren1-boren5" id="boren4" value="boren4" />
         </label>
         <label className="form-control six-radio" htmlFor="boren1-boren5">Once Each Player Overall
@@ -47,6 +48,7 @@ const SectionSix = () => {
 
       </form>
         <OfferButton />
+        <AcceptCounterOffer />
         <SubmitButton />
     </div>
   )

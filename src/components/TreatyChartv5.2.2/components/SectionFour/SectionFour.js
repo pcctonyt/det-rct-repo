@@ -1,5 +1,6 @@
 import React from "react";
 import "./SectionFour.css";
+import AcceptCounterOffer from "../Buttons/AcceptCounterOffer";
 import OfferButton from "../Buttons/OfferButton";
 import SubmitButton from "../Buttons/SubmitButton";
 
@@ -20,18 +21,18 @@ const SectionFour = () => {
         </form>
         <form>
           <h5>Select Promotion type:</h5>
-          <label className="form-control" htmlFor="prom1-prom3">None
+          <label className="form-control" htmlFor="prom1-prom3">None At All
               <input type="radio" name="prom1-prom3" value="prom1" id="prom1" />
           </label>
-          <label className="form-control" htmlFor="prom1-prom3">Captured
+          <label className="form-control" htmlFor="prom1-prom3">Captured Units Only
               <input type="radio" name="prom1-prom3" value="prom2" id="prom2" />
           </label>
-          <label className="form-control" htmlFor="prom1-prom3">All 
+          <label className="form-control" htmlFor="prom1-prom3">All Units, even copies 
               <input type="radio" name="prom1-prom3" value="prom3" id="prom3" checked />
           </label>
         </form>
         <form>
-          <h5>Allow President protection?</h5>
+          <h5>Allow Protect the President Move Elements?</h5>
           <label className="form-control" htmlFor="proy-pron">Yes
               <input type="radio" name="proy-pron" value="yes" id="proy" checked />
           </label>
@@ -41,11 +42,11 @@ const SectionFour = () => {
         </form>
         <form>
           <h5>Allow Capture of Presidents Left in Check (+)?</h5>
-          <label className="form-control" htmlFor="chky-chkn">Yes
-              <input type="radio" name="chky-chkn" value="yes" id="chky" />
-          </label>
           <label className="form-control" htmlFor="chky-chkn">No
               <input type="radio" name="chky-chkn" value="no" id="chkn" checked />
+          </label>
+          <label className="form-control" htmlFor="chky-chkn">Yes
+              <input type="radio" name="chky-chkn" value="yes" id="chky" />
           </label>
         </form>
         <form>
@@ -55,6 +56,7 @@ const SectionFour = () => {
           </label>
         </form>
           <OfferButton />
+          <AcceptCounterOffer />
           <SubmitButton />
     </div>
   )

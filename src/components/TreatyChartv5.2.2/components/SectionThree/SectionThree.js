@@ -1,5 +1,6 @@
 import React from "react";
 import "./SectionThree.css";
+import AcceptCounterOffer from "../Buttons/AcceptCounterOffer";
 import OfferButton from "../Buttons/OfferButton";
 import SubmitButton from "../Buttons/SubmitButton";
 
@@ -61,6 +62,7 @@ const SectionThree = () => {
             </label>
         </form>
         <OfferButton />
+        <AcceptCounterOffer />
         <SubmitButton />
     </div>
   )
