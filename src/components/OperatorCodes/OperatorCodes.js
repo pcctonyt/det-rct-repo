@@ -21,8 +21,8 @@ const OperatorCodes = () => {
   const [ separatorCode, setSeparatorCode ] = useState(false);
   
   return (
-    <div>
-        <h2> Operator Codes:  Click a button below for all of the information on that Score Sheet Operator type!</h2>
+    <div className="operator-codes-btn-wrapper">
+        <h2 className="operator-codes-h1"> Operator Codes:  Click a button below for all of the information on that Score Sheet Operator type!</h2>
           <span>
             <button id="CapturesCode" className="operator-codes-btn" onClick={() => setCapturesCode(true)}>Capture Operator: (x)</button>
             <Popup trigger={ capturesCode } setTrigger={ setCapturesCode }>

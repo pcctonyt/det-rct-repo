@@ -26,8 +26,8 @@ const [ illegalYes, setIllegalYes ] = useState(false);
 const [ resignsCode, setResignsCode ] = useState(false);
 
   return (
-    <div>
-        <h2>Order Codes:  Click a button below for all of the information on that Order Element type!</h2>
+    <div className="order-codes-btn-wrapper">
+        <h2 className="order-codes-h1">Order Element Codes:  Click a button below for all of the information on that Order Element type!</h2>
           <span>
             <button id="ActivateCode" className="order-codes-btn" onClick={() => setActivateCode(true)}>Activate Order Element: (C)</button>
             <Popup trigger={ activateCode } setTrigger={ setActivateCode }>

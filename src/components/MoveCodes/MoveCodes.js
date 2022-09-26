@@ -29,8 +29,8 @@ const MoveCodes = () => {
   const [ protectShortCode, setProtectShortCode ] = useState(false);
   
   return (
-    <div>
-        <h2> Move Element Codes:  Click a button below for all of the information on that Move Element type!</h2>
+    <div className="move-codes-btn-wrapper">
+        <h2 className="move-codes-h1"> Move Element Codes:  Click a button below for all of the information on that Move Element type!</h2>
           <span>
             <button id="BorderBreachCode" className="move-codes-btn" onClick={() => setBreachCode(true)}>Border Breach Move Element: (BB)</button>
             <Popup trigger={ breachCode } setTrigger={ setBreachCode }>

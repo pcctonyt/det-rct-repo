@@ -20,8 +20,8 @@ const ConvUnitCodes = () => {
   const [ serCode, setSerCode ]= useState(false);
 
   return (
-    <div>
-        <h2>Conventional Unit Codes:  Click a button below for all of the information on that Unit!</h2>
+    <div className="conv-codes-btn-wrapper">
+        <h2 className="conv-codes-h1">Conventional Unit Codes:  Click a button below for all of the information on that Unit!</h2>
           <span>
             <button id="AirdropCode" className="conv-codes-btn" onClick={() => setAirCode(true)}>Airdrop Unit: (A)</button>
             <Popup trigger={ airCode } setTrigger={ setAirCode }>

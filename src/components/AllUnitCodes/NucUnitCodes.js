@@ -17,8 +17,8 @@ const NucUnitCodes = () => {
   const [ snCode, setSnCode ]= useState(false);
 
   return (
-    <div>
-        <h2>Nuclear Unit Codes:  Click a button below for all of the information on that Unit!</h2>
+    <div className="nuc-codes-btn-wrapper">
+        <h2 className="nuc-codes-h1">Nuclear Unit Codes:  Click a button below for all of the information on that Unit!</h2>
           <span>
             <button id="FixedIntermediateNuclearCode" className="nuc-codes-btn" onClick={() => setFinCode(true)}>Fixed Intermediate Nuclear Unit: (FIN)</button>
             <Popup trigger={ finCode } setTrigger={ setFinCode }>

@@ -11,8 +11,8 @@ const SDIUnitCodes = () => {
   const [ msdiCode, setMsdiCode ]= useState(false);
   
   return (
-    <div>
-        <h2>SDI Defense Unit Codes:  Click a button below for all of the information on that Unit!</h2>
+    <div className="sdi-codes-btn-wrapper">
+        <h2 className="sdi-codes-h1">SDI Defense Unit Codes:  Click a button below for all of the information on that Unit!</h2>
         <span>
             <button id="FixedSDIDefenseCode" className="sdi-codes-btn" onClick={() => setFsdiCode(true)}>Fixed SDI Defense Unit: (FSDI)</button>
             <Popup trigger={ fsdiCode } setTrigger={ setFsdiCode }>

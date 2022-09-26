@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .general-rules-wrapper {
-    width: 100vw;
+    padding: 0.5rem;
     font-family: "Lato", sans-serif;
     background-color: white;
 }
@@ -55,9 +55,4 @@
 .bold {
     font-weight: bold;
     text-align: center;
-}
-
-.bold.divider {
-    text-align: left;
-    margin-right: 18rem;
 }
