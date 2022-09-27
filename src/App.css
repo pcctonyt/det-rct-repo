@@ -41,6 +41,7 @@ body {
     padding: .5rem;
     margin: .25rem;
     background-color: rgb(191, 191, 24);
+    color: blue;
     border-radius: .625rem;
   }
 

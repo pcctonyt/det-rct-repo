@@ -30,10 +30,6 @@ const MIN = () => {
                 <div className="divider"></div>
                     <p className="no-divider"><span className="bold">Pairs With Any Unit other than the President Unit or Infantry Units</span></p>
                 <div className="divider md"></div>
-                    <p><span className="bold">Variable Rules:</span> <span className="right bold">Default Setting:</span></p>
-                    <p className="indent no-divider"><i>Promotion</i> moves:<span className="bold right">(Not Applicable)</span></p>
-                    <div className="divider"></div>
-                    <p className="no-divider indent">Blocks ground-level attacks: <span className="bold right">No</span> </p>
                 <div className="divider lg"></div>
                     <p className="no-divider"><span className="bold">Rules for all Mobile Nuclear Units</span></p>
                 <div className="divider lg"></div>

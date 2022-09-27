@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
+import "./ScoreSheet.css";
 
 const AddRespondingTurn = () => {
     const [ text, setText ] = useState("");
@@ -41,7 +42,7 @@ const AddRespondingTurn = () => {
                     <label htmlFor="cashPoints">Cash Value Points Earned:<br /></label>
                     <input type="number" value={cashPoints} onChange={(e) => setCashPoints(e.target.value)} placeholder="Enter New Cash Value Points..." />
                 </span>
-                <button className="btn">Add Starting Turn</button>
+                <button className="btn">Add Responding Turn</button>
             </form>
         </span>
     )

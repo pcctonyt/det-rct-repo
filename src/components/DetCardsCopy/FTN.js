@@ -6,7 +6,7 @@ const FTN = () => {
         <h1 className="text-center">Deterrence Cards:  Nuclear Units</h1>
         <div className="label">
             <header>
-                <h1 className="bold">Fixed Tactical Nuclear Unit</h1>
+                <h1 className="text-center bold">Fixed Tactical Nuclear Unit</h1>
                 <div className="divider"></div>
                 <p>Up to 1 each side per game</p>
                 <p className="bold">Unit Type: <span className="right">Nuclear Unit</span></p>
@@ -27,10 +27,6 @@ const FTN = () => {
                 <div className="divider"></div>
                     <p className="no-divider"><span className="bold">Pairs With the Infantry Unit</span></p>
                 <div className="divider md"></div>
-                    <p><span className="bold">Variable Rules:</span> <span className="right bold">Default Setting:</span></p>
-                    <p className="indent no-divider"><i>Promotion</i> moves:<span className="bold right">(Not Applicable)</span></p>
-                <div className="divider"></div>
-                    <p className="indent">Blocks ground-level attacks: <span className="bold right">Yes</span> </p>
                     <p className="no-divider"><span className="bold">Rules for all Fixed Nuclear Units</span></p>
                 <div className="divider lg"></div>
                     <p>1. Fixed Nuclear Units are only destroyed by opposing Units, they cannot be captured.</p>

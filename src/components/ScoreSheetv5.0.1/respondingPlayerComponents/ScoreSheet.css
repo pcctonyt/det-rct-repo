@@ -58,9 +58,6 @@ h5 {
   text-transform: uppercase;
 }
 
-#add-responding {
-  background-color: rgb(167, 77, 77),
-}
 .starting-cash-score-container {
   background-color: rgb(81, 92, 174);
   box-shadow: var(--box-shadow);
@@ -133,7 +130,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: green;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;

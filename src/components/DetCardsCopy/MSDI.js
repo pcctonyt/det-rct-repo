@@ -6,7 +6,7 @@ const MSDI = () => {
         <h1 className="text-center">Deterrence SDI Defense Units</h1>
         <div className="label">
             <header>
-                <h1 className="bold">Mobile SDI Defense Unit</h1>
+                <h1 className="text-center bold">Mobile SDI Defense Unit</h1>
                 <div className="divider"></div>
                 <p>Up to 6 total of both types of SDI Units(s) each side per game</p>
                 <p className="bold">Unit Type: <span className="right">SDI Defense Unit</span></p>
@@ -27,10 +27,6 @@ const MSDI = () => {
                 <div className="divider"></div>
                     <p className="no-divider"><span className="bold">Can protect all other Unit types</span></p>
                 <div className="divider md"></div>
-                    <p><span className="bold">Variable Rules:</span> <span className="right bold">Default Setting:</span></p>
-                    <p className="indent no-divider"><i>Promotion</i> moves:<span className="bold right">(Not Applicable)</span></p>
-                <div className="divider"></div>
-                    <p className="indent">Blocks ground-level attacks: <span className="bold right">No</span> </p>
                     <p className="no-divider"><span className="bold">Rules for all Mobile SDI Defense Units:</span></p>
                 <div className="divider lg"></div>
                     <p>1. Mobile SDI Defense Units are only captured by opposing Conventional Units, they cannot be destroyed by them.</p>

@@ -33,7 +33,6 @@ const MTN = () => {
                     <p><span className="bold">Variable Rules:</span> <span className="right bold">Default Setting:</span></p>
                     <p className="indent no-divider"><i>Promotion</i> moves:<span className="bold right">(Promotes to Mobile Intermediate Nuclear Unit when #2 or #3 option chosen in Treaty)</span></p>
                 <div className="divider"></div>
-                    <p className="indent">Blocks ground-level attacks: <span className="bold right">No</span> </p>
                 <div className="divider lg"></div>
                     <p className="no-divider"><span className="bold">Rules for all Mobile Nuclear Units</span></p>
                 <div className="divider lg"></div>

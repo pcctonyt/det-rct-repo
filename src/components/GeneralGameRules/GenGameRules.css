@@ -56,3 +56,9 @@
     font-weight: bold;
     text-align: center;
 }
+
+.general-rules-setting-color {
+    background-color: gray;
+    color: rgb(6, 70, 115);
+    border-radius: .625rem;
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./ValidationSection.css";
-import SubmitButton from "../Buttons/SubmitButton";
 import ReviewChangesButton from "../Buttons/ReviewChangesButton";
 import ValidateTreatyButton from "../Buttons/ValidateTreatyButton";
 const ValidationSection = () => {
@@ -15,8 +14,13 @@ const ValidationSection = () => {
           <label className="form-control" htmlFor="revisedTreaty">Revised Treaty
             <input type="radio" name="firstTreaty-revisedTreay" value="revisedTreaty" id="revisedTreaty" />
           </label>
-          <ReviewChangesButton />
-          <SubmitButton />
+        </form>
+        <ReviewChangesButton />
+        <form>
+          <h3>Input your User Identification Code to validate:</h3>
+            <textarea type="text" name="userIdVal" id="userIdVal" placeholder="Example: detChampion"></textarea>
+          <h3>Enter your password:</h3>
+            <textarea type="text" name="userPassVal" id="UserPassVal" placeholder="Example: 12345678!?dc"></textarea>
           <ValidateTreatyButton />
         </form>
     </div>

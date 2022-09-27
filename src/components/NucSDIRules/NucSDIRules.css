@@ -15,6 +15,14 @@
     text-align: center;
 }
 
+.deploy-timeframe-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .rule {
     border: none;
 }

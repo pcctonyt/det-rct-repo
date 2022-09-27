@@ -26,11 +26,8 @@ const FSDI = () => {
                 <div className="divider"></div>
                     <p className="no-divider"><span className="bold">Can protect all other Unit types</span></p>
                 <div className="divider md"></div>
-                    <p><span className="bold">Variable Rules:</span> <span className="right bold">Default Setting:</span></p>
-                    <p className="indent "><i>Promotion</i> moves:<span className="bold right">(Not Applicable)</span></p>
                     <p className="indent no-divider"><strong className="bold">BUY RATE (Score Sheet Game Points deducted at Buy (B) time):</strong> <span className="right">-2.0 Points</span></p>
                 <div className="divider"></div>
-                    <p className="indent no-divider">Blocks ground-level attacks: <span className="bold right">Yes</span> </p>
                 <div className="divider lg"></div>
                     <p className="no-divider"><span className="bold">Rules for all Fixed SDI Defense Units:</span></p>
                 <div className="divider lg"></div>

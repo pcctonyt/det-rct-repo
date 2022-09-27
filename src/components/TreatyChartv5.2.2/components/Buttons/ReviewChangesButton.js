@@ -4,7 +4,7 @@ import "./Buttons.css";
 const ReviewChangesButton = () => {
   return (
     <div>
-        <button className="section-btn review">Review Changes Button</button>
+        <button className="section-btn review">Review Agreed Changes</button>
     </div>
   )
 }

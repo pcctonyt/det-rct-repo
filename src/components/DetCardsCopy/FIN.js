@@ -30,9 +30,6 @@ const FIN = () => {
                 <div className="divider"></div>
                     <p className="no-divider"><span className="bold">Pairs With Any Unit Other Than the President Unit or the Infantry Units</span></p>
                 <div className="divider md"></div>
-                    <p><span className="bold">Variable Rules:</span> <span className="right bold">Default Setting:</span></p>
-                    <p className="indent no-divider"><i>Promotion</i> moves:<span className="bold right">(Not Applicable)</span></p>
-                <div className="divider"></div>
                 <div className="divider lg"></div>    
                     <p className="no-divider"><span className="bold">Rules for all Fixed Nuclear Units</span></p>
                 <div className="divider lg"></div>

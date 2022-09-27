@@ -30,10 +30,6 @@ const SN = () => {
                 <div className="divider"></div>
                     <p className="no-divider"><span className="bold">Pairs With the President Unit</span></p>
                 <div className="divider md"></div>
-                    <p><span className="bold">Variable Rules:</span> <span className="right bold">Default Setting:</span></p>
-                    <p className="indent no-divider"><i>Promotion</i> moves:<span className="bold right">(Not Applicable)</span></p>
-                <div className="divider"></div>
-                    <p className="indent">Blocks ground-level attacks: <span className="bold right">Yes</span> </p>
                     <p className="indent no-divider">YIELD #1: <span className="bold right">DEFAULT:  2 x 2 squares</span> </p>
                     <p className="indent no-divider">YIELD #2: <span className="bold right">2 x 3 squares</span>
                     </p>
