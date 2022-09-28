@@ -20,17 +20,18 @@
     width: 80%;
     max-width: 40rem;
     background-color: white;
-    margin-top: 16rem;
+    margin-top: 3rem;
+    margin-left: .2rem;
     border-radius: .625rem;
   }
 
   .btn.btn-primary {
-    background-color: cyan;
+    background-color: rgb(22, 19, 62);
     padding: .25rem;
     position: absolute;
     display: block;
     top: .5rem;
-    right: .5rem;
+    right: .1rem;
     margin-top: -1rem;
     border-radius: .625rem;
   }

@@ -44,11 +44,13 @@
 }
 
 .selection-color {
-    background-color: beige;
+    background-color: rgb(157, 157, 82);
+    border-radius: .625rem;
 }
 
 .points-setting-color {
-    background-color: lightyellow;
+    background-color: rgb(157, 157, 82);
+    border-radius: .625rem;
 }
 
 .nukes-setting-color {
